@@ -3,15 +3,14 @@ const mongoose = require('mongoose');
 const routes = require('./routes');
 const cors = require('cors');
 
-const dotenv = require("dotenv-safe")
-dotenv.config()
+require('dotenv-safe').config();
 
 const app = express();
 
-mongoose.connect(process.env.MONGO_URI), {
+mongoose.connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
-};
+});
 
 app.use(cors());
 app.use(express.json());
