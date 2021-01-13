@@ -16,4 +16,4 @@
   
 <h2>MongoDB</h2>
 
-  Tive a oportunidade de aprender e adquiri experiência com a tecnologia de DataBase e consegui pelos estudos, desenvolver um servidor no MongoDB para salvar meus dados de formulário.
+  Tive a oportunidade de aprender e adquiri experiência com a tecnologia de DataBase. Consegui pelos estudos, desenvolver um servidor no MongoDB para salvar meus dados de formulário.
