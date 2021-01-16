@@ -4,7 +4,7 @@ const userSchema = new mongoose.Schema({
     name: String,
     lastname: String,
     cpf: String,
-    sale: Boolean,
+    sales: Boolean,
 });
 
 module.exports = mongoose.model('user', userSchema);
